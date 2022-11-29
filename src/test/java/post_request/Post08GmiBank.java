@@ -1,5 +1,5 @@
 package post_request;
-import base_urls.QmiBankBaseUrl;
+import base_urls.GmiBankBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -11,9 +11,9 @@ import java.util.ArrayList;
 
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
-import static utils.AuthenticationQmiBank.generateToken;
+import static utils.AuthenticationGmiBank.generateToken;
 
-public class Post08QmiBank extends QmiBankBaseUrl {
+public class Post08GmiBank extends GmiBankBaseUrl {
     /*
        Given
           https://www.gmibank.com/api/tp-countries

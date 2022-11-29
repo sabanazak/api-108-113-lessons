@@ -7,7 +7,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class AuthenticationQmiBank {
+public class AuthenticationGmiBank {
     public static void main(String[] args) {
         System.out.println(generateToken());
     }

@@ -1,6 +1,6 @@
 package get_request;
 
-import base_urls.QmiBankBaseUrl;
+import base_urls.GmiBankBaseUrl;
 import io.restassured.response.Response;
 import org.junit.Test;
 import pojos.Country;
@@ -14,9 +14,9 @@ import java.util.Objects;
 import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static utils.AuthenticationQmiBank.generateToken;
+import static utils.AuthenticationGmiBank.generateToken;
 
-public class Get18QmiBank extends QmiBankBaseUrl {
+public class Get18GmiBank extends GmiBankBaseUrl {
     /*
         Given
 	       https://www.gmibank.com/api/tp-customers/110452
